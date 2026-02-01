@@ -39,8 +39,8 @@ Jun 2024 - Jul 2024 (2 months)
 combining ConvLSTM and U-Net for semantic segmentation to classify rainfall intensity into 4 levels (Non-rain, Light, Moderate, Heavy).
 
 #### Tools and Technologies
-- Deep Learning Framework: Pytorch
-- Architecture: LSTM, U-Net
+- **Deep Learning Framework**: Pytorch
+- **Architecture**: LSTM, U-Net
 
 ![senior_method](/assets/senior_method.png)
 
@@ -49,11 +49,12 @@ combining ConvLSTM and U-Net for semantic segmentation to classify rainfall inte
 Inpatient department using Chi-Square tests and Cramer’s V as effect size measurement. 
 - Implemented data mining with Association Rule Mining technique (Apriori and FP-Growth) to discover hidden diagnostic patterns and correlations across 
 hospital departments. 
-- Proposed a novel "Interestingness Score" to identify clinically significant cross-departmental diagnostic trajectories, validated by medical literature.
+- Proposed a novel "**Interestingness Score**" to identify clinically significant cross-departmental diagnostic trajectories, validated by medical literature.
+
 #### Tools and Technologies
-- Data Preparation: Pandas
-- Data Mining: Apriori, FP-Growth
-- Visualization: Matplotlib
+- **Data Preparation**: Pandas
+- **Data Mining**: Apriori, FP-Growth
+- **Visualization**: Matplotlib
 
 ![icd_method](/assets/icd_method.png)
 
@@ -67,11 +68,11 @@ dbt for data transformation using the Medallion Architecture (Bronze, Silver, Go
 - Established a comprehensive monitoring ecosystem with Power BI dashboards and LINE Notify real-time alerts, enabling facility staff to identify anomalies and potentially reduce energy waste.
 
 #### Tools and Technologies
-- DBT: Handles data transformation and modeling using Medallion Architecture (Bronze, Silver and Gold)
-- Airflow: Orchestrates ELT workflow
-- PostgreSQL: Stores data as Data Lake and Data Warehouse
-- Docker: Container service
-- Python: Conducts Data extraction, Airflow script and Line Notify for alert system
-- Power BI: Visualizes data for monitoring
+- **DBT**: Handles data transformation and modeling using Medallion Architecture (Bronze, Silver and Gold)
+- **Airflow**: Orchestrates ELT workflow
+- **PostgreSQL**: Stores data as Data Lake and Data Warehouse
+- **Docker**: Container service
+- **Python**: Conducts Data extraction, Airflow script and Line Notify for alert system
+- **Power BI**: Visualizes data for monitoring
 
 ![de_workflow](/assets/de.png)
