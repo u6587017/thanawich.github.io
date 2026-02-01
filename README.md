@@ -25,7 +25,7 @@ Accomplishments:
 into SAP-ready tabular formats. 
 - **Reduced data processing turnaround time from 1 day to under 30 minutes** while ensuring sensitive financial data remains secure internally.
 
-### Intern Data Scientist Fresh Commerce (Talaadthai Online)
+### Intern Data Scientist at Fresh Commerce (Talaadthai Online)
 Jun 2024 - Jul 2024 (2 months)
 - **Developed a Time-series model to forecast Gross Merchandise Value (GMV) using CRISP-DM methodology**. 
 - Addressed revenue uncertainty and support strategic marketing planning, enabling the business to allocate resources effectively based on predicted sales trends. 
