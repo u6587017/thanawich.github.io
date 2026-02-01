@@ -18,8 +18,7 @@ Designed and developed a Power BI dashboard to monitor employee expense reimburs
 - Delivered Fraud Detection & Audit System which can successfully identify potential fraud cases and erroneous claims for accountants. 
 Developed a Financial Assistant Chatbot using the N8N workflow automation platform to answer questions about financial reports. 
 - Eliminated the technical bottleneck of CFO and CFA which are required to manually write SQL queries or filter on MS-Excel just to retrieve specific financial figures. 
-- Experimented with Retrieval-Augmented Generation (RAG) approach, combining Qdrant Vector Store and SQL AI agent technique retrieved from 
-PostgreSQL database. 
+- Experimented with Hybrid Retrieval-Augmented Generation (Hybrid-RAG) approach, combining Qdrant Vector Store and SQL querying technique retrieved from PostgreSQL database. 
 - Achieved 78% accuracy in response reliability through manual qualitative assessment (Human-in-the-loop) of LLM outputs. 
 Developed a Python-based desktop application to extract multi-format invoice PDFs into structured data. 
 - Replaced manual data entry process where accountants had to visually read invoices and type data into specific Excel columns for SAP ingestion and 
