@@ -9,8 +9,9 @@ React, Tailwind, Docker, Git, FastAPI, Spring Boot, Microsoft Fabric (Data flow,
 ## Internship Trainee at Bangchak Corporation Public Company Limited
 Jun 2025 - Nov 2025 (6 months)
 I was responsible in 3 in-house projects in the Department of Accounting and Finance.
+
 Accomplishments:
-Designed and developed a Power BI dashboard to monitor employee expense reimbursements. 
+Designed and developed a Power BI dashboard to monitor employee expense reimbursements.
 - Prevent financial leakage, such as reusing invoices, slightly altering invoice numbers and human entry errors which traditional rules failed to catch. 
 - Built an end-to-end pipeline using Microsoft Fabric (Dataflows, Pipeline, Lakehouse, Notebook) and implemented Fuzzy Logic algorithms to score similarity between records, detecting patterns of manipulation and typo errors before visualizing suspicious cases on Power BI dashboard. 
 - Delivered Fraud Detection & Audit System which can successfully identify potential fraud cases and erroneous claims for accountants. 
