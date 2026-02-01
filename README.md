@@ -43,12 +43,21 @@ combining ConvLSTM and U-Net for semantic segmentation to classify rainfall inte
 Inpatient department using Chi-Square tests and Cramer’s V as effect size measurement. 
 - Implemented data mining with Association Rule Mining technique (Apriori and FP-Growth) to discover hidden diagnostic patterns and correlations across 
 hospital departments. 
-- Proposed a novel "Interestingness Score" to identify clinically significant cross-departmental diagnostic trajectories, validated by medical literature. 
-### Data Engineering and Infrastructure Project 
+- Proposed a novel "Interestingness Score" to identify clinically significant cross-departmental diagnostic trajectories, validated by medical literature.
+
+### Data Engineering and Infrastructure Project
+This project is a part of third year Data Engineer course in the Faculty of Information and Communication at Mahidol university. The objective is to optimize energy usage in the Faculty of Information and Communication Technology(MUICT) building. We use data collected from three sources including: the MUICT building room reservation API, MUICT IoT sensors, and the TMD Weather API. We also use ETL as data integration process.
 - Built an end-to-end ETL Data Pipeline for a Smart Building Energy Optimization System to monitor and analyze utility usage at the MUICT faculty. 
 - Addressed inefficiencies in building energy consumption by correlating diverse datasets, room reservation schedules, IoT sensor readings, and real-time 
-TMD weather data for precise usage optimization. 
+TMD weather data for precise usage optimization.
 - Orchestrated the workflow using Apache Airflow within Docker, performing raw data extraction via Python and loading it into PostgreSQL and implemented 
-dbt for data transformation using the Medallion Architecture (Bronze, Silver, Gold) to ensure data quality. 
-- Established a comprehensive monitoring ecosystem with Power BI dashboards and LINE Notify real-time alerts, enabling facility staff to identify anomalies 
-and potentially reduce energy waste. 
+dbt for data transformation using the Medallion Architecture (Bronze, Silver, Gold) to ensure data quality.
+- Established a comprehensive monitoring ecosystem with Power BI dashboards and LINE Notify real-time alerts, enabling facility staff to identify anomalies and potentially reduce energy waste.
+#### Tools and Technologies
+- DBT: Handles data transformation and modeling using Medallion Architecture (Bronze, Silver and Gold)
+- Airflow: Orchestrates ELT workflow
+- PostgreSQL: Stores data as Data Lake and Data Warehouse
+- Docker: Container service
+- Programming Language
+  - Python: Conducts Data extraction, Airflow script and Line Notify for alert system
+- Power BI: Visualizes data for monitoring
