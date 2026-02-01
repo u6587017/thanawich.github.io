@@ -62,3 +62,4 @@ dbt for data transformation using the Medallion Architecture (Bronze, Silver, Go
 - Python: Conducts Data extraction, Airflow script and Line Notify for alert system
 - Power BI: Visualizes data for monitoring
 
+![de_workflow](/assets/de.png)
