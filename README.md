@@ -53,11 +53,12 @@ TMD weather data for precise usage optimization.
 - Orchestrated the workflow using Apache Airflow within Docker, performing raw data extraction via Python and loading it into PostgreSQL and implemented 
 dbt for data transformation using the Medallion Architecture (Bronze, Silver, Gold) to ensure data quality.
 - Established a comprehensive monitoring ecosystem with Power BI dashboards and LINE Notify real-time alerts, enabling facility staff to identify anomalies and potentially reduce energy waste.
+
 #### Tools and Technologies
 - DBT: Handles data transformation and modeling using Medallion Architecture (Bronze, Silver and Gold)
 - Airflow: Orchestrates ELT workflow
 - PostgreSQL: Stores data as Data Lake and Data Warehouse
 - Docker: Container service
-- Programming Language
-  - Python: Conducts Data extraction, Airflow script and Line Notify for alert system
+- Python: Conducts Data extraction, Airflow script and Line Notify for alert system
 - Power BI: Visualizes data for monitoring
+
