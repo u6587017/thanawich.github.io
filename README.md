@@ -38,12 +38,24 @@ Jun 2024 - Jul 2024 (2 months)
 - Proposed a deep learning model for short-term rainfall nowcasting (0-30 mins) using Himawari-8 satellite imagery and radar data and an architecture 
 combining ConvLSTM and U-Net for semantic segmentation to classify rainfall intensity into 4 levels (Non-rain, Light, Moderate, Heavy).
 
+#### Tools and Technologies
+- Deep Learning Framework: Pytorch
+- Architecture: LSTM, U-Net
+
+![senior_method](/assets/senior_method.png)
+
 ### Practical Data Science Project - Analysis of International Classification of Diseases (ICD) Codes Between Emergency Department and Inpatient Department
 - Conducted statistical analysis on the MIMIC-IV dataset (2008-2019) to evaluate diagnostic coding discrepancies between Emergency department and 
 Inpatient department using Chi-Square tests and Cramer’s V as effect size measurement. 
 - Implemented data mining with Association Rule Mining technique (Apriori and FP-Growth) to discover hidden diagnostic patterns and correlations across 
 hospital departments. 
 - Proposed a novel "Interestingness Score" to identify clinically significant cross-departmental diagnostic trajectories, validated by medical literature.
+#### Tools and Technologies
+- Data Preparation: Pandas
+- Data Mining: Apriori, FP-Growth
+- Visualization: Matplotlib
+
+![icd_method](/assets/icd_method.png)
 
 ### Data Engineering and Infrastructure Project
 This project is a part of third year Data Engineer course in the Faculty of Information and Communication at Mahidol university. The objective is to optimize energy usage in the Faculty of Information and Communication Technology(MUICT) building. We use data collected from three sources including: the MUICT building room reservation API, MUICT IoT sensors, and the TMD Weather API. We also use ETL as data integration process.
