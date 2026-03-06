@@ -39,9 +39,9 @@ combining ConvLSTM and U-Net for semantic segmentation to classify rainfall inte
 
 #### Tools and Technologies
 - **Deep Learning Framework**: Pytorch
-- **Architecture**: LSTM, U-Net
+- **Architecture**: Convolution-LSTM, LinkNet
 
-<img width="600" height="100" alt="workflow_senior" src="https://github.com/user-attachments/assets/9e466ceb-efb2-4c23-aa36-a599720ab16a" />
+![senior_workflow](/assets/workflow_senior.png)
 
 ### Practical Data Science Project - Analysis of International Classification of Diseases (ICD) Codes Between Emergency Department and Inpatient Department
 - Conducted statistical analysis on the MIMIC-IV dataset (2008-2019) to evaluate diagnostic coding discrepancies between Emergency department and 
