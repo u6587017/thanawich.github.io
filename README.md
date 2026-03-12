@@ -75,3 +75,6 @@ dbt for data transformation using the Medallion Architecture (Bronze, Silver, Go
 - **Power BI**: Visualizes data for monitoring
 
 ![de_workflow](/assets/de.png)
+
+### Strawberry Counting
+This project fine-tunes a YOLOv8 object detection model using a strawberry dataset from Kaggle to accurately detect and count strawberries in videos which includes:
