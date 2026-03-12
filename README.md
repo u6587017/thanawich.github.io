@@ -83,3 +83,5 @@ This project fine-tunes a YOLOv8 object detection model using a strawberry datas
 
 ### Emotion Detection
 This project fine-tunes a MobileNet Architecture to classify emotion in 7 classes ('angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised') and utilizes OpenCV to detect face using HaarCascade
+![trump1](/assets/trump_test1.png)
+![trump2](/assets/trump_test2.png)
