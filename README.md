@@ -78,3 +78,8 @@ dbt for data transformation using the Medallion Architecture (Bronze, Silver, Go
 
 ### Strawberry Counting
 This project fine-tunes a YOLOv8 object detection model using a strawberry dataset from Kaggle to accurately detect and count strawberries in videos which includes:
+
+![straw](/assets/strawberry_count_test.png)
+
+### Emotion Detection
+This project fine-tunes a MobileNet Architecture to classify emotion in 7 classes ('angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised') and utilizes OpenCV to detect face using HaarCascade
