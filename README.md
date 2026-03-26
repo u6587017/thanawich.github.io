@@ -4,35 +4,20 @@
 - **Machine Learning**: Pandas, NumPy, Scikit-learn, Matplotlib, SciPy, Keras, TensorFlow, PyTorch, OpenCV
 - **Other**: PowerBI, MS-Excel (Power Query, Pivot-table), Alteryx, Apache Airflow, MySQL, DBeaver, Firebase, MongoDB, PostgreSQL, N8N, dbt, HTML, CSS, 
 React, Tailwind, Docker, Git, FastAPI, Spring Boot, Microsoft Fabric (Data flow, Pipeline, Lakehouse, Notebook)
+## Self-taught Project
 
-## Work Experience
-### Internship Trainee at Bangchak Corporation Public Company Limited
-Jun 2025 - Nov 2025 (6 months)<br />I was responsible in 3 in-house projects in the Department of Accounting and Finance.
+### Strawberry Counting
+This project fine-tunes a YOLOv8 object detection model using a strawberry dataset from Kaggle to accurately detect and count strawberries in a video.
+Tools/Library: OpenCV, Gradio (For User Interface), AWS EC2 (for deployment) 
+![straw](/assets/strawberry_count_test.png)
 
-Accomplishments:
+### Emotion Detection
+This project fine-tunes a MobileNet Architecture to classify emotion in 7 classes ('angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised') and utilizes OpenCV to detect face using HaarCascade.
+Tools/Library: OpenCV, FastAPI, Docker ,AWS ECR (Docker container registry), AWS App Runner (container application service) 
+![trump1](/assets/trump_test.png)
+![trump2](/assets/trump_test2.png)
 
-- **Designed and developed a Power BI dashboard** to monitor employee expense reimbursements.
-- Prevent financial leakage, such as reusing invoices, slightly altering invoice numbers and human entry errors which traditional rules failed to catch. 
-- Built an end-to-end pipeline using Microsoft Fabric (Dataflows, Pipeline, Lakehouse, Notebook) and implemented Fuzzy Logic algorithms to score similarity between records, detecting patterns of manipulation and typo errors before visualizing suspicious cases on Power BI dashboard. 
-- Delivered Fraud Detection & Audit System which can successfully identify potential fraud cases and erroneous claims for accountants. 
-- **Developed a Financial Assistant Chatbot using the N8N workflow automation platform** to answer questions about financial reports. 
-- Eliminated the technical bottleneck of CFO and CFA which are required to manually write SQL queries or filter on MS-Excel just to retrieve specific financial figures. 
-- Experimented with Hybrid Retrieval-Augmented Generation (Hybrid RAG) approach, combining Qdrant Vector Store and SQL querying technique retrieved from PostgreSQL database. 
-- Achieved 78% accuracy in response reliability through manual qualitative assessment (Human-in-the-loop) of LLM outputs. 
-- **Developed a Python-based desktop application to extract multi-format invoice PDFs into structured data**. 
-- Replaced manual data entry process where accountants had to visually read invoices and type data into specific Excel columns for SAP ingestion and eliminate the dependency on a third-party vendor, which required a 24-hour waiting period for results and posed potential data privacy risks. 
-- Integrated open-source Large Language Model (Typhoon) with OCR capabilities to accurately parse multi-format PDFs and convert unstructured content 
-into SAP-ready tabular formats. 
-- **Reduced data processing turnaround time from 1 day to under 30 minutes** while ensuring sensitive financial data remains secure internally.
-
-### Intern Data Scientist at Fresh Commerce (Talaadthai Online)
-Jun 2024 - Jul 2024 (2 months)
-- **Developed a Time-series model to forecast Gross Merchandise Value (GMV) using CRISP-DM methodology**. 
-- Addressed revenue uncertainty and support strategic marketing planning, enabling the business to allocate resources effectively based on predicted sales trends. 
-- Experimented multiple forecasting algorithms, such as Linear Regression, ARIMA, and LSTM (TensorFlow), to predict Gross Merchandise Value (GMV). 
-- Achieved a 19.24% MAPE with the Linear Regression.
-
-## Projects
+## Academic Projects
 ### Senior Project – RainCast - Predicting Rainfall with Data-Driven Models
 - Proposed a deep learning model for short-term rainfall nowcasting (0-30 mins) using Himawari-8 satellite imagery and radar data and an architecture 
 combining ConvLSTM and U-Net for semantic segmentation to classify rainfall intensity into 4 levels (Non-rain, Light, Moderate, Heavy).
@@ -76,12 +61,31 @@ dbt for data transformation using the Medallion Architecture (Bronze, Silver, Go
 
 ![de_workflow](/assets/de.png)
 
-### Strawberry Counting
-This project fine-tunes a YOLOv8 object detection model using a strawberry dataset from Kaggle to accurately detect and count strawberries in videos which includes:
+## Work Experience
+### Internship Trainee at Bangchak Corporation Public Company Limited
+Jun 2025 - Nov 2025 (6 months)<br />I was responsible in 3 in-house projects in the Department of Accounting and Finance.
 
-![straw](/assets/strawberry_count_test.png)
+Accomplishments:
 
-### Emotion Detection
-This project fine-tunes a MobileNet Architecture to classify emotion in 7 classes ('angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised') and utilizes OpenCV to detect face using HaarCascade
-![trump1](/assets/trump_test.png)
-![trump2](/assets/trump_test2.png)
+- **Designed and developed a Power BI dashboard** to monitor employee expense reimbursements.
+- Prevent financial leakage, such as reusing invoices, slightly altering invoice numbers and human entry errors which traditional rules failed to catch. 
+- Built an end-to-end pipeline using Microsoft Fabric (Dataflows, Pipeline, Lakehouse, Notebook) and implemented Fuzzy Logic algorithms to score similarity between records, detecting patterns of manipulation and typo errors before visualizing suspicious cases on Power BI dashboard. 
+- Delivered Fraud Detection & Audit System which can successfully identify potential fraud cases and erroneous claims for accountants. 
+- **Developed a Financial Assistant Chatbot using the N8N workflow automation platform** to answer questions about financial reports. 
+- Eliminated the technical bottleneck of CFO and CFA which are required to manually write SQL queries or filter on MS-Excel just to retrieve specific financial figures. 
+- Experimented with Hybrid Retrieval-Augmented Generation (Hybrid RAG) approach, combining Qdrant Vector Store and SQL querying technique retrieved from PostgreSQL database. 
+- Achieved 78% accuracy in response reliability through manual qualitative assessment (Human-in-the-loop) of LLM outputs. 
+- **Developed a Python-based desktop application to extract multi-format invoice PDFs into structured data**. 
+- Replaced manual data entry process where accountants had to visually read invoices and type data into specific Excel columns for SAP ingestion and eliminate the dependency on a third-party vendor, which required a 24-hour waiting period for results and posed potential data privacy risks. 
+- Integrated open-source Large Language Model (Typhoon) with OCR capabilities to accurately parse multi-format PDFs and convert unstructured content 
+into SAP-ready tabular formats. 
+- **Reduced data processing turnaround time from 1 day to under 30 minutes** while ensuring sensitive financial data remains secure internally.
+
+### Intern Data Scientist at Fresh Commerce (Talaadthai Online)
+Jun 2024 - Jul 2024 (2 months)
+- **Developed a Time-series model to forecast Gross Merchandise Value (GMV) using CRISP-DM methodology**. 
+- Addressed revenue uncertainty and support strategic marketing planning, enabling the business to allocate resources effectively based on predicted sales trends. 
+- Experimented multiple forecasting algorithms, such as Linear Regression, ARIMA, and LSTM (TensorFlow), to predict Gross Merchandise Value (GMV). 
+- Achieved a 19.24% MAPE with the Linear Regression.
+
+
