@@ -8,13 +8,13 @@ React, Tailwind, Docker, Git, FastAPI, Spring Boot, Microsoft Fabric (Data flow,
 ## Self-taught Project
 
 ### Strawberry Counting
-This project fine-tunes a YOLOv8 object detection model using a strawberry dataset from Kaggle to accurately detect and count strawberries in a video.
-Tools/Library: Ultralytics YOLO, OpenCV, Gradio (For User Interface), AWS EC2 (for deployment) 
+This project fine-tunes a YOLOv8 object detection model using a strawberry dataset from Kaggle to accurately detect and count strawberries in a video.<br />
+**Tools/Library**: Ultralytics YOLO, OpenCV, Gradio (For User Interface), AWS EC2 (for deployment) 
 ![straw](/assets/strawberry_count_test.png)
 
 ### Emotion Detection
-This project fine-tunes a MobileNet Architecture to classify emotion in 7 classes ('angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised') and utilizes OpenCV to detect face using HaarCascade.
-Tools/Library: Tensorflow(Keras) ,OpenCV, FastAPI, Docker ,AWS ECR (Docker container registry), AWS App Runner (container application service) 
+This project fine-tunes a MobileNet Architecture to classify emotion in 7 classes ('angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised') and utilizes OpenCV to detect face using HaarCascade.<br />
+**Tools/Library**: Tensorflow(Keras) ,OpenCV, FastAPI, Docker ,AWS ECR (Docker container registry), AWS App Runner (container application service) 
 ![trump1](/assets/trump_test.png)
 ![trump2](/assets/trump_test2.png)
 
