@@ -4,16 +4,17 @@
 - **Machine Learning**: Pandas, NumPy, Scikit-learn, Matplotlib, SciPy, Keras, TensorFlow, PyTorch, OpenCV
 - **Other**: PowerBI, MS-Excel (Power Query, Pivot-table), Alteryx, Apache Airflow, MySQL, DBeaver, Firebase, MongoDB, PostgreSQL, N8N, dbt, HTML, CSS, 
 React, Tailwind, Docker, Git, FastAPI, Spring Boot, Microsoft Fabric (Data flow, Pipeline, Lakehouse, Notebook)
+<br />
 ## Self-taught Project
 
 ### Strawberry Counting
 This project fine-tunes a YOLOv8 object detection model using a strawberry dataset from Kaggle to accurately detect and count strawberries in a video.
-Tools/Library: OpenCV, Gradio (For User Interface), AWS EC2 (for deployment) 
+Tools/Library: Ultralytics YOLO, OpenCV, Gradio (For User Interface), AWS EC2 (for deployment) 
 ![straw](/assets/strawberry_count_test.png)
 
 ### Emotion Detection
 This project fine-tunes a MobileNet Architecture to classify emotion in 7 classes ('angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised') and utilizes OpenCV to detect face using HaarCascade.
-Tools/Library: OpenCV, FastAPI, Docker ,AWS ECR (Docker container registry), AWS App Runner (container application service) 
+Tools/Library: Tensorflow(Keras) ,OpenCV, FastAPI, Docker ,AWS ECR (Docker container registry), AWS App Runner (container application service) 
 ![trump1](/assets/trump_test.png)
 ![trump2](/assets/trump_test2.png)
 
@@ -87,5 +88,3 @@ Jun 2024 - Jul 2024 (2 months)
 - Addressed revenue uncertainty and support strategic marketing planning, enabling the business to allocate resources effectively based on predicted sales trends. 
 - Experimented multiple forecasting algorithms, such as Linear Regression, ARIMA, and LSTM (TensorFlow), to predict Gross Merchandise Value (GMV). 
 - Achieved a 19.24% MAPE with the Linear Regression.
-
-
